@@ -3,6 +3,14 @@
 ## 📊 Overview
 This project implements an end-to-end data pipeline for agricultural data analysis. Raw data from an AWS S3 bucket is processed through Snowflake and visualized using PowerBI to derive insights on crop yields, rainfall patterns, temperature trends, and humidity effects.
 
+## 📁 Repository Structure
+
+This repository is organized as follows:
+- `data/` - Contains the original agricultural dataset
+- `scripts/` - SQL scripts for Snowflake setup, data transformation, and analysis
+- `docs/` - Project documentation including architecture diagram and data dictionary
+- `visualizations/` - PowerBI dashboard file and screenshots of key analyses
+
 ## 🏗️ Architecture
 - **Data Source**: Agricultural dataset stored in AWS S3
 - **Data Processing**: Snowflake for ETL and data transformations
